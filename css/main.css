@@ -56,18 +56,17 @@ main #item_list ul {
 
 main #item_list li {
   width: calc((100% - 40px) / 2);
-  text-align: center;
+ 
 }
 
 main #item_list li a {
-  display: flex;
-  flex-direction: column;
+  display: block;
   
 
 }
 
 main #item_list p {
-  text-align-last: left;
+  text-align: left;
 }
 
 
