@@ -1,0 +1,81 @@
+/* common */
+
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+h1,h2,p,ul {
+margin: 0;
+padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* header */
+header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100%;
+  padding: 20px 0 20px 20px;
+ 
+  display: flex;
+  
+  margin-bottom: 100px;
+  box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.5)
+}
+
+header h2 {
+  margin-left: 20px;
+  font-size: 35px;
+  align-self:center;
+  
+}
+
+/* item_list */
+
+main #item_list ul {
+  display: flex;
+  gap:30px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main #item_list li {
+  width: calc((100% - 40px) / 2);
+  text-align: center;
+}
+
+main #item_list li a {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+main #item_list p {
+  text-align-last: left;
+}
+
+
+main #item_list li img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+
+
