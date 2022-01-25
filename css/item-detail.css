@@ -58,17 +58,18 @@ body{
  }
 
  #item_detail {
+  text-align: center;
    width: 100%;
  }
  
  #item_detail img {
-   width: 100%;
+   width: 70%;
    margin-bottom: 30px;
 
  }
 
  #item_detail .text {
-   text-align: center;
+   color:red;
  }
 
 
