@@ -102,11 +102,11 @@ main #item_list img {
 }
 
 main #item_list .name {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 main #item_list .price {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 main #item_list p {
@@ -132,6 +132,14 @@ background: rgba(0, 0, 0, 0.082);
 
   main #item_list li {
     width: calc((100% - 48px) / 4);
+  }
+
+  main #item_list .name {
+    font-size: 20px;
+  }
+  
+  main #item_list .price {
+    font-size: 15px;
   }
 }
 
