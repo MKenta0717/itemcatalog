@@ -1,90 +1,103 @@
 /* common */
 
-
-body{
+body {
   padding: 0;
   margin: 0;
-  font-family: 'PT Serif', serif;
- }
- 
- h1,h2,p,ul {
- margin: 0;
- padding: 0;
- }
- 
- ul {
-   list-style: none;
- }
- 
- img {
-   vertical-align: bottom;
- }
- 
- a {
-   text-decoration: none;
-   color: inherit;
- }
- 
- .wrapper {
-   width: 100%;
-   padding: 0 30px;
-   box-sizing: border-box;
-   margin: 0 auto;
-   max-width: 1048px;
- }
- 
- 
- /* header */
- header {
-   
-   width: 100%;
-   margin-bottom :40px;
-   
-   box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.5);
-   background: rgba(0, 0, 0, 0.082);
- }
- 
- header .wrapper {
-   display: flex;
-   padding: 20px 20px;
-   box-sizing: border-box;
- }
- 
- header h2 {
-   margin-left: 20px;
-   font-size: 35px;
-   align-self:center;
-   
- }
+  font-family: "PT Serif", serif;
+}
 
- #item_detail {
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1048px;
+}
+
+/* header */
+header {
+  width: 100%;
+  margin-bottom: 40px;
+
+  box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.082);
+}
+
+header .wrapper {
+  display: flex;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+header h2 {
+  margin-left: 20px;
+  font-size: 35px;
+  align-self: center;
+}
+
+main {
   text-align: center;
-   width: 100%;
- }
- 
- #item_detail img {
-   width: 70%;
-   margin-bottom: 30px;
+}
 
- }
-
- #item_detail .text {
-   color:red;
- }
-
-
- #item_detail .text .name {
-   line-height: 1;
-   margin-bottom: 20px;
- }
-
-
-
-
- 
- footer {
+#item_detail {
   text-align: center;
-background: rgba(0, 0, 0, 0.082);
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#item_detail img {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#item_detail .text {
+}
+
+#item_detail .text .name {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.btn a {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  padding: 15px 0;
+  border: 1px solid #333;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.btn a:hover{
+  background: rgba(128, 128, 128, 0.233);
+
+}
+
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.082);
   color: #333;
   padding: 20px 0;
   margin-top: 100px;
