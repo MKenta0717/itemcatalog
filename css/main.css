@@ -31,7 +31,7 @@ a {
   padding: 0 30px;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1048px;
+  max-width: 1400px;
 }
 
 
@@ -90,7 +90,7 @@ main #item_list li img {
 main #item_list ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px 16px;
+  gap: 60px 16px;
 }
 
 main #item_list li {
@@ -99,10 +99,33 @@ main #item_list li {
   
 }
 
+
 main #item_list img {
   width: 100%;
   margin-bottom: 20px;
+  max-width: 300px;
 }
+
+
+
+
+
+.saleprice {
+  color: red;
+  margin-top: 10px;
+}
+
+.saleprice::before {
+  content: 'SALE';
+  background: red;
+  color: white;
+  padding: 0px 5px;
+  margin-right: 10px;
+  
+}
+
+
+
 
 main #item_list .name {
   font-size: 16px;
@@ -115,12 +138,14 @@ main #item_list .price {
 main #item_list p {
   font-family: 'PT Serif', serif;
   text-align: center;
-  display: inline-block;
+ 
  
  
 }
 
 main #item_list a:hover  {
+  display: inline-block;
+
  opacity: 0.5;
 }
 
@@ -133,6 +158,9 @@ background: rgba(0, 0, 0, 0.082);
   padding: 20px 0;
   margin-top: 100px;
 }
+
+
+
 
 
 
@@ -150,9 +178,8 @@ background: rgba(0, 0, 0, 0.082);
   }
   
   main #item_list .price {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
-
 
 
