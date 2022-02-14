@@ -69,6 +69,7 @@ main {
 #item_detail img {
   width: 70%;
   margin-bottom: 30px;
+  max-width: 300px;
 }
 
 #item_detail .text {
