@@ -73,11 +73,17 @@ main {
 }
 
 #item_detail .text {
+  
 }
 
 #item_detail .text .name {
   line-height: 1;
   margin-bottom: 20px;
+}
+
+
+#item_detail .text .name h1 {
+  margin-bottom: 10px;
 }
 
 #item_detail .detail {
